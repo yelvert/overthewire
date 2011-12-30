@@ -12,6 +12,5 @@ puts "Numbers: #{numbers.inspect}"
 puts "Sum: #{sum}"
 response = [sum].pack('V')
 socket.write response
-password = socket.read
+puts socket.read
 socket.close
-puts password
