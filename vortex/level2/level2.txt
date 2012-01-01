@@ -1,0 +1,1 @@
+echo `/vortex/vortex2 /etc/vortex_pass/vortex3 2>/dev/null && strings '/tmp/ownership.$$.tar'|tail -n1`
